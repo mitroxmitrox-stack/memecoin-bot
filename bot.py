@@ -2,7 +2,8 @@ import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = "8372372190:AAH2G1dq_tI6A6bGh7QdoV5FaIPJJ71sDwg"
+import os
+BOT_TOKEN = os.getenv("8372372190:AAH2G1dq_tI6A6bGh7QdoV5FaIPJJ71sDwg")
 
 has_bought_token = False
 
